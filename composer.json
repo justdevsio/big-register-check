@@ -1,6 +1,6 @@
 {
     "name": "justdevs/big-register-check",
-    "description": "Check the big-register",
+    "description": "Check the dutch BIG-register.",
     "type": "library",
     "require": {
         "php": "^7.3.0"
@@ -17,7 +17,8 @@
     "authors": [
         {
             "name": "Menno",
-            "email": "menno@justdevs.io"
+            "email": "menno@justdevs.io",
+            "homepage": "https://justdevs.io"
         }
     ],
     "license": "MIT"
