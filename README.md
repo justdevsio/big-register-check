@@ -5,7 +5,7 @@ Simple API to check BIG registration for a given registration number.
 ## Introduction 
 
 The Dutch government has a SOAP-API available to search/check information in the BIG-register. 
-This PHP library is an easy way to if a given registration number has a valid registration. 
+This PHP library is an easy way to verify if a given registration number has a valid registration. 
 This way you know that the person linked to the unique registration number is allowed to practice medicine in 
 the Netherlands. 
 
