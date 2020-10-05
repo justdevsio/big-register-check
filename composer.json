@@ -2,6 +2,7 @@
     "name": "justdevsio/big-register-check",
     "description": "Check the dutch BIG-register.",
     "type": "library",
+    "version": "1.0-master",
     "require": {
         "php": "^7.3.0"
     },
