@@ -2,13 +2,23 @@
     "name": "justdevs/big-register-check",
     "description": "Check the big-register",
     "type": "library",
+    "require": {
+        "php": "^7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JustDevs\\BIGRegister\\": "src/"
+        }
+    },
     "require-dev": {
-        "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
+        "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4",
+        "phpunit/phpunit": "^9.4"
     },
     "authors": [
         {
             "name": "Menno",
             "email": "menno@justdevs.io"
         }
-    ]
+    ],
+    "license": "MIT"
 }
