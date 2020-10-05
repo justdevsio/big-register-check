@@ -1,0 +1,14 @@
+{
+    "name": "justdevs/big-register-check",
+    "description": "Check the big-register",
+    "type": "library",
+    "require-dev": {
+        "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "Menno",
+            "email": "menno@justdevs.io"
+        }
+    ]
+}
