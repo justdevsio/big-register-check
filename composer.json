@@ -1,5 +1,5 @@
 {
-    "name": "justdevs/big-register-check",
+    "name": "justdevsio/big-register-check",
     "description": "Check the dutch BIG-register.",
     "type": "library",
     "require": {
