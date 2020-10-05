@@ -1,14 +1,14 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
-class ArrayOfTypeOfSpecialism implements \ArrayAccess, \Iterator, \Countable
+class ArrayOfJudgmentProvisionExtApp implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
-     * @var TypeOfSpecialism[] $TypeOfSpecialism
+     * @var JudgmentProvisionExtApp[] $JudgmentProvisionExtApp
      */
-    protected $TypeOfSpecialism = null;
+    protected $JudgmentProvisionExtApp = null;
 
     
     public function __construct()
@@ -17,20 +17,20 @@ class ArrayOfTypeOfSpecialism implements \ArrayAccess, \Iterator, \Countable
     }
 
     /**
-     * @return TypeOfSpecialism[]
+     * @return JudgmentProvisionExtApp[]
      */
-    public function getTypeOfSpecialism()
+    public function getJudgmentProvisionExtApp()
     {
-      return $this->TypeOfSpecialism;
+      return $this->JudgmentProvisionExtApp;
     }
 
     /**
-     * @param TypeOfSpecialism[] $TypeOfSpecialism
-     * @return \JustDevs\BIGRegister\ArrayOfTypeOfSpecialism
+     * @param JudgmentProvisionExtApp[] $JudgmentProvisionExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\ArrayOfJudgmentProvisionExtApp
      */
-    public function setTypeOfSpecialism(array $TypeOfSpecialism = null)
+    public function setJudgmentProvisionExtApp(array $JudgmentProvisionExtApp = null)
     {
-      $this->TypeOfSpecialism = $TypeOfSpecialism;
+      $this->JudgmentProvisionExtApp = $JudgmentProvisionExtApp;
       return $this;
     }
 
@@ -42,33 +42,33 @@ class ArrayOfTypeOfSpecialism implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->TypeOfSpecialism[$offset]);
+      return isset($this->JudgmentProvisionExtApp[$offset]);
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to retrieve
-     * @return TypeOfSpecialism
+     * @return JudgmentProvisionExtApp
      */
     public function offsetGet($offset)
     {
-      return $this->TypeOfSpecialism[$offset];
+      return $this->JudgmentProvisionExtApp[$offset];
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to assign the value to
-     * @param TypeOfSpecialism $value The value to set
+     * @param JudgmentProvisionExtApp $value The value to set
      * @return void
      */
     public function offsetSet($offset, $value)
     {
       if (!isset($offset)) {
-        $this->TypeOfSpecialism[] = $value;
+        $this->JudgmentProvisionExtApp[] = $value;
       } else {
-        $this->TypeOfSpecialism[$offset] = $value;
+        $this->JudgmentProvisionExtApp[$offset] = $value;
       }
     }
 
@@ -80,17 +80,17 @@ class ArrayOfTypeOfSpecialism implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->TypeOfSpecialism[$offset]);
+      unset($this->JudgmentProvisionExtApp[$offset]);
     }
 
     /**
      * Iterator implementation
      *
-     * @return TypeOfSpecialism Return the current element
+     * @return JudgmentProvisionExtApp Return the current element
      */
     public function current()
     {
-      return current($this->TypeOfSpecialism);
+      return current($this->JudgmentProvisionExtApp);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfTypeOfSpecialism implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->TypeOfSpecialism);
+      next($this->JudgmentProvisionExtApp);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfTypeOfSpecialism implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->TypeOfSpecialism);
+      return key($this->JudgmentProvisionExtApp);
     }
 
     /**
@@ -132,17 +132,17 @@ class ArrayOfTypeOfSpecialism implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->TypeOfSpecialism);
+      reset($this->JudgmentProvisionExtApp);
     }
 
     /**
      * Countable implementation
      *
-     * @return TypeOfSpecialism Return count of elements
+     * @return JudgmentProvisionExtApp Return count of elements
      */
     public function count()
     {
-      return count($this->TypeOfSpecialism);
+      return count($this->JudgmentProvisionExtApp);
     }
 
 }

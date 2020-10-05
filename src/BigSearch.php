@@ -3,8 +3,9 @@
 namespace JustDevs\BIGRegister;
 
 use DateTime;
-
-include('big/autoload.php');
+use JustDevs\BIGRegister\Client\ListHcpApproxRequest;
+use JustDevs\BIGRegister\Client\PublicV4;
+use JustDevs\BIGRegister\Client\SourceWebSite;
 
 class BigSearch
 {
@@ -21,7 +22,6 @@ class BigSearch
     {
         $this->registrationNumber = $registrationNumber;
         $this->client = new PublicV4();
-
     }
 
     /**

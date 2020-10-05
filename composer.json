@@ -1,26 +1,27 @@
 {
-    "name": "justdevs/big-register-check",
-    "description": "Check the dutch BIG-register.",
-    "type": "library",
-    "version": "1.0",
-    "require": {
-        "php": "^7.3.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "JustDevs\\BIGRegister\\": "src/"
-        }
-    },
-    "require-dev": {
-        "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4",
-        "phpunit/phpunit": "^9.4"
-    },
-    "authors": [
-        {
-            "name": "Menno",
-            "email": "menno@justdevs.io",
-            "homepage": "https://justdevs.io"
-        }
-    ],
-    "license": "MIT"
+  "name": "justdevs/big-register-check",
+  "description": "Check the dutch BIG-register.",
+  "type": "library",
+  "version": "1.0",
+  "require": {
+    "php": "^7.4",
+    "ext-soap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JustDevs\\BIGRegister\\": "src/"
+    }
+  },
+  "require-dev": {
+    "wsdl2phpgenerator/wsdl2phpgenerator": "^3.4",
+    "phpunit/phpunit": "^9.4"
+  },
+  "authors": [
+    {
+      "name": "Menno",
+      "email": "menno@justdevs.io",
+      "homepage": "https://justdevs.io"
+    }
+  ],
+  "license": "MIT"
 }

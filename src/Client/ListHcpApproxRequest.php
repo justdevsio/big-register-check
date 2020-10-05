@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class ListHcpApproxRequest
 {
@@ -88,7 +88,7 @@ class ListHcpApproxRequest
 
     /**
      * @param SourceWebSite $WebSite
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setWebSite($WebSite)
     {
@@ -106,7 +106,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $Name
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setName($Name)
     {
@@ -124,7 +124,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $Initials
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setInitials($Initials)
     {
@@ -142,7 +142,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $Prefix
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setPrefix($Prefix)
     {
@@ -160,7 +160,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $Street
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setStreet($Street)
     {
@@ -178,7 +178,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $Gender
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setGender($Gender)
     {
@@ -196,7 +196,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $HouseNumber
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setHouseNumber($HouseNumber)
     {
@@ -214,7 +214,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $Postalcode
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setPostalcode($Postalcode)
     {
@@ -232,7 +232,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $City
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setCity($City)
     {
@@ -250,7 +250,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $RegistrationNumber
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setRegistrationNumber($RegistrationNumber)
     {
@@ -268,7 +268,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $DateOfBirth
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setDateOfBirth($DateOfBirth)
     {
@@ -286,7 +286,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $ProfessionalGroup
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setProfessionalGroup($ProfessionalGroup)
     {
@@ -304,7 +304,7 @@ class ListHcpApproxRequest
 
     /**
      * @param string $TypeOfSpecialism
-     * @return \JustDevs\BIGRegister\ListHcpApproxRequest
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxRequest
      */
     public function setTypeOfSpecialism($TypeOfSpecialism)
     {

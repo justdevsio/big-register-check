@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class ListHcpApproxResponse4
 {
@@ -26,7 +26,7 @@ class ListHcpApproxResponse4
 
     /**
      * @param ArrayOfListHcpApprox4 $ListHcpApprox
-     * @return \JustDevs\BIGRegister\ListHcpApproxResponse4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApproxResponse4
      */
     public function setListHcpApprox($ListHcpApprox)
     {

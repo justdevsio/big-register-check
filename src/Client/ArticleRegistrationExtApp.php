@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class ArticleRegistrationExtApp
 {
@@ -47,7 +47,7 @@ class ArticleRegistrationExtApp
 
     /**
      * @param float $ArticleRegistrationNumber
-     * @return \JustDevs\BIGRegister\ArticleRegistrationExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\ArticleRegistrationExtApp
      */
     public function setArticleRegistrationNumber($ArticleRegistrationNumber)
     {
@@ -73,7 +73,7 @@ class ArticleRegistrationExtApp
 
     /**
      * @param \DateTime $ArticleRegistrationStartDate
-     * @return \JustDevs\BIGRegister\ArticleRegistrationExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\ArticleRegistrationExtApp
      */
     public function setArticleRegistrationStartDate(\DateTime $ArticleRegistrationStartDate)
     {
@@ -99,7 +99,7 @@ class ArticleRegistrationExtApp
 
     /**
      * @param \DateTime $ArticleRegistrationEndDate
-     * @return \JustDevs\BIGRegister\ArticleRegistrationExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\ArticleRegistrationExtApp
      */
     public function setArticleRegistrationEndDate(\DateTime $ArticleRegistrationEndDate)
     {
@@ -117,7 +117,7 @@ class ArticleRegistrationExtApp
 
     /**
      * @param string $ProfessionalGroupCode
-     * @return \JustDevs\BIGRegister\ArticleRegistrationExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\ArticleRegistrationExtApp
      */
     public function setProfessionalGroupCode($ProfessionalGroupCode)
     {

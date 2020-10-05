@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class ArrayOfLimitationExtApp implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfLimitationExtApp implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param LimitationExtApp[] $LimitationExtApp
-     * @return \JustDevs\BIGRegister\ArrayOfLimitationExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\ArrayOfLimitationExtApp
      */
     public function setLimitationExtApp(array $LimitationExtApp = null)
     {

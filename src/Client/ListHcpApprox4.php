@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class ListHcpApprox4
 {
@@ -86,7 +86,7 @@ class ListHcpApprox4
 
     /**
      * @param string $BirthSurname
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setBirthSurname($BirthSurname)
     {
@@ -104,7 +104,7 @@ class ListHcpApprox4
 
     /**
      * @param string $MailingName
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setMailingName($MailingName)
     {
@@ -122,7 +122,7 @@ class ListHcpApprox4
 
     /**
      * @param string $Prefix
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setPrefix($Prefix)
     {
@@ -140,7 +140,7 @@ class ListHcpApprox4
 
     /**
      * @param string $Initial
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setInitial($Initial)
     {
@@ -158,7 +158,7 @@ class ListHcpApprox4
 
     /**
      * @param string $Gender
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setGender($Gender)
     {
@@ -176,7 +176,7 @@ class ListHcpApprox4
 
     /**
      * @param Address $WorkAddress1
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setWorkAddress1($WorkAddress1)
     {
@@ -194,7 +194,7 @@ class ListHcpApprox4
 
     /**
      * @param Address $WorkAddress2
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setWorkAddress2($WorkAddress2)
     {
@@ -212,7 +212,7 @@ class ListHcpApprox4
 
     /**
      * @param Address $WorkAddress3
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setWorkAddress3($WorkAddress3)
     {
@@ -230,7 +230,7 @@ class ListHcpApprox4
 
     /**
      * @param ArrayOfArticleRegistrationExtApp $ArticleRegistration
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setArticleRegistration($ArticleRegistration)
     {
@@ -248,7 +248,7 @@ class ListHcpApprox4
 
     /**
      * @param ArrayOfSpecialismExtApp1 $Specialism
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setSpecialism($Specialism)
     {
@@ -266,7 +266,7 @@ class ListHcpApprox4
 
     /**
      * @param ArrayOfMentionExtApp $Mention
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setMention($Mention)
     {
@@ -284,7 +284,7 @@ class ListHcpApprox4
 
     /**
      * @param ArrayOfJudgmentProvisionExtApp $JudgmentProvision
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setJudgmentProvision($JudgmentProvision)
     {
@@ -302,7 +302,7 @@ class ListHcpApprox4
 
     /**
      * @param ArrayOfLimitationExtApp $Limitation
-     * @return \JustDevs\BIGRegister\ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ListHcpApprox4
      */
     public function setLimitation($Limitation)
     {

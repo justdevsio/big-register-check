@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class ArrayOfSpecialismExtApp1 implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfSpecialismExtApp1 implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param SpecialismExtApp1[] $SpecialismExtApp1
-     * @return \JustDevs\BIGRegister\ArrayOfSpecialismExtApp1
+     * @return \JustDevs\BIGRegister\client\client\client\ArrayOfSpecialismExtApp1
      */
     public function setSpecialismExtApp1(array $SpecialismExtApp1 = null)
     {

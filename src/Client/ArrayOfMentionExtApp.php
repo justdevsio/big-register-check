@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class ArrayOfMentionExtApp implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfMentionExtApp implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param MentionExtApp[] $MentionExtApp
-     * @return \JustDevs\BIGRegister\ArrayOfMentionExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\ArrayOfMentionExtApp
      */
     public function setMentionExtApp(array $MentionExtApp = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class Address
 {
@@ -61,7 +61,7 @@ class Address
 
     /**
      * @param string $AddressTo
-     * @return \JustDevs\BIGRegister\Address
+     * @return \JustDevs\BIGRegister\client\client\client\Address
      */
     public function setAddressTo($AddressTo)
     {
@@ -79,7 +79,7 @@ class Address
 
     /**
      * @param string $StreetName
-     * @return \JustDevs\BIGRegister\Address
+     * @return \JustDevs\BIGRegister\client\client\client\Address
      */
     public function setStreetName($StreetName)
     {
@@ -97,7 +97,7 @@ class Address
 
     /**
      * @param string $HouseNumber
-     * @return \JustDevs\BIGRegister\Address
+     * @return \JustDevs\BIGRegister\client\client\client\Address
      */
     public function setHouseNumber($HouseNumber)
     {
@@ -115,7 +115,7 @@ class Address
 
     /**
      * @param string $HouseNumberAddition
-     * @return \JustDevs\BIGRegister\Address
+     * @return \JustDevs\BIGRegister\client\client\client\Address
      */
     public function setHouseNumberAddition($HouseNumberAddition)
     {
@@ -133,7 +133,7 @@ class Address
 
     /**
      * @param string $PostalCode
-     * @return \JustDevs\BIGRegister\Address
+     * @return \JustDevs\BIGRegister\client\client\client\Address
      */
     public function setPostalCode($PostalCode)
     {
@@ -151,7 +151,7 @@ class Address
 
     /**
      * @param string $City
-     * @return \JustDevs\BIGRegister\Address
+     * @return \JustDevs\BIGRegister\client\client\client\Address
      */
     public function setCity($City)
     {
@@ -169,7 +169,7 @@ class Address
 
     /**
      * @param string $ForeignAddress
-     * @return \JustDevs\BIGRegister\Address
+     * @return \JustDevs\BIGRegister\client\client\client\Address
      */
     public function setForeignAddress($ForeignAddress)
     {
@@ -187,7 +187,7 @@ class Address
 
     /**
      * @param float $CountryCode
-     * @return \JustDevs\BIGRegister\Address
+     * @return \JustDevs\BIGRegister\client\client\client\Address
      */
     public function setCountryCode($CountryCode)
     {

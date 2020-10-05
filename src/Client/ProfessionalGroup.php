@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class ProfessionalGroup
 {
@@ -69,7 +69,7 @@ class ProfessionalGroup
 
     /**
      * @param string $Code
-     * @return \JustDevs\BIGRegister\ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ProfessionalGroup
      */
     public function setCode($Code)
     {
@@ -87,7 +87,7 @@ class ProfessionalGroup
 
     /**
      * @param string $Description
-     * @return \JustDevs\BIGRegister\ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ProfessionalGroup
      */
     public function setDescription($Description)
     {
@@ -105,7 +105,7 @@ class ProfessionalGroup
 
     /**
      * @param string $DescriptionEnglish
-     * @return \JustDevs\BIGRegister\ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ProfessionalGroup
      */
     public function setDescriptionEnglish($DescriptionEnglish)
     {
@@ -123,7 +123,7 @@ class ProfessionalGroup
 
     /**
      * @param string $Title
-     * @return \JustDevs\BIGRegister\ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ProfessionalGroup
      */
     public function setTitle($Title)
     {
@@ -141,7 +141,7 @@ class ProfessionalGroup
 
     /**
      * @param boolean $Article3
-     * @return \JustDevs\BIGRegister\ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ProfessionalGroup
      */
     public function setArticle3($Article3)
     {
@@ -159,7 +159,7 @@ class ProfessionalGroup
 
     /**
      * @param boolean $Article34
-     * @return \JustDevs\BIGRegister\ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ProfessionalGroup
      */
     public function setArticle34($Article34)
     {
@@ -177,7 +177,7 @@ class ProfessionalGroup
 
     /**
      * @param float $BusinessOwner
-     * @return \JustDevs\BIGRegister\ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ProfessionalGroup
      */
     public function setBusinessOwner($BusinessOwner)
     {
@@ -195,7 +195,7 @@ class ProfessionalGroup
 
     /**
      * @param int $RequiredHoursForReregistration
-     * @return \JustDevs\BIGRegister\ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ProfessionalGroup
      */
     public function setRequiredHoursForReregistration($RequiredHoursForReregistration)
     {

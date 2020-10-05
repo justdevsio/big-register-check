@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class SpecialismExtApp1
 {
@@ -42,7 +42,7 @@ class SpecialismExtApp1
 
     /**
      * @param float $SpecialismId
-     * @return \JustDevs\BIGRegister\SpecialismExtApp1
+     * @return \JustDevs\BIGRegister\client\client\client\SpecialismExtApp1
      */
     public function setSpecialismId($SpecialismId)
     {
@@ -60,7 +60,7 @@ class SpecialismExtApp1
 
     /**
      * @param float $ArticleRegistrationNumber
-     * @return \JustDevs\BIGRegister\SpecialismExtApp1
+     * @return \JustDevs\BIGRegister\client\client\client\SpecialismExtApp1
      */
     public function setArticleRegistrationNumber($ArticleRegistrationNumber)
     {
@@ -78,7 +78,7 @@ class SpecialismExtApp1
 
     /**
      * @param float $TypeOfSpecialismId
-     * @return \JustDevs\BIGRegister\SpecialismExtApp1
+     * @return \JustDevs\BIGRegister\client\client\client\SpecialismExtApp1
      */
     public function setTypeOfSpecialismId($TypeOfSpecialismId)
     {

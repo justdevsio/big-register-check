@@ -1,14 +1,14 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
-class ArrayOfArticleRegistrationExtApp implements \ArrayAccess, \Iterator, \Countable
+class ArrayOfProfessionalGroup implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
-     * @var ArticleRegistrationExtApp[] $ArticleRegistrationExtApp
+     * @var ProfessionalGroup[] $ProfessionalGroup
      */
-    protected $ArticleRegistrationExtApp = null;
+    protected $ProfessionalGroup = null;
 
     
     public function __construct()
@@ -17,20 +17,20 @@ class ArrayOfArticleRegistrationExtApp implements \ArrayAccess, \Iterator, \Coun
     }
 
     /**
-     * @return ArticleRegistrationExtApp[]
+     * @return ProfessionalGroup[]
      */
-    public function getArticleRegistrationExtApp()
+    public function getProfessionalGroup()
     {
-      return $this->ArticleRegistrationExtApp;
+      return $this->ProfessionalGroup;
     }
 
     /**
-     * @param ArticleRegistrationExtApp[] $ArticleRegistrationExtApp
-     * @return \JustDevs\BIGRegister\ArrayOfArticleRegistrationExtApp
+     * @param ProfessionalGroup[] $ProfessionalGroup
+     * @return \JustDevs\BIGRegister\client\client\client\ArrayOfProfessionalGroup
      */
-    public function setArticleRegistrationExtApp(array $ArticleRegistrationExtApp = null)
+    public function setProfessionalGroup(array $ProfessionalGroup = null)
     {
-      $this->ArticleRegistrationExtApp = $ArticleRegistrationExtApp;
+      $this->ProfessionalGroup = $ProfessionalGroup;
       return $this;
     }
 
@@ -42,33 +42,33 @@ class ArrayOfArticleRegistrationExtApp implements \ArrayAccess, \Iterator, \Coun
      */
     public function offsetExists($offset)
     {
-      return isset($this->ArticleRegistrationExtApp[$offset]);
+      return isset($this->ProfessionalGroup[$offset]);
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to retrieve
-     * @return ArticleRegistrationExtApp
+     * @return ProfessionalGroup
      */
     public function offsetGet($offset)
     {
-      return $this->ArticleRegistrationExtApp[$offset];
+      return $this->ProfessionalGroup[$offset];
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to assign the value to
-     * @param ArticleRegistrationExtApp $value The value to set
+     * @param ProfessionalGroup $value The value to set
      * @return void
      */
     public function offsetSet($offset, $value)
     {
       if (!isset($offset)) {
-        $this->ArticleRegistrationExtApp[] = $value;
+        $this->ProfessionalGroup[] = $value;
       } else {
-        $this->ArticleRegistrationExtApp[$offset] = $value;
+        $this->ProfessionalGroup[$offset] = $value;
       }
     }
 
@@ -80,17 +80,17 @@ class ArrayOfArticleRegistrationExtApp implements \ArrayAccess, \Iterator, \Coun
      */
     public function offsetUnset($offset)
     {
-      unset($this->ArticleRegistrationExtApp[$offset]);
+      unset($this->ProfessionalGroup[$offset]);
     }
 
     /**
      * Iterator implementation
      *
-     * @return ArticleRegistrationExtApp Return the current element
+     * @return ProfessionalGroup Return the current element
      */
     public function current()
     {
-      return current($this->ArticleRegistrationExtApp);
+      return current($this->ProfessionalGroup);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfArticleRegistrationExtApp implements \ArrayAccess, \Iterator, \Coun
      */
     public function next()
     {
-      next($this->ArticleRegistrationExtApp);
+      next($this->ProfessionalGroup);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfArticleRegistrationExtApp implements \ArrayAccess, \Iterator, \Coun
      */
     public function key()
     {
-      return key($this->ArticleRegistrationExtApp);
+      return key($this->ProfessionalGroup);
     }
 
     /**
@@ -132,17 +132,17 @@ class ArrayOfArticleRegistrationExtApp implements \ArrayAccess, \Iterator, \Coun
      */
     public function rewind()
     {
-      reset($this->ArticleRegistrationExtApp);
+      reset($this->ProfessionalGroup);
     }
 
     /**
      * Countable implementation
      *
-     * @return ArticleRegistrationExtApp Return count of elements
+     * @return ProfessionalGroup Return count of elements
      */
     public function count()
     {
-      return count($this->ArticleRegistrationExtApp);
+      return count($this->ProfessionalGroup);
     }
 
 }

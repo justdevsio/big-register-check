@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class TypeOfSpecialism
 {
@@ -63,7 +63,7 @@ class TypeOfSpecialism
 
     /**
      * @param float $Code
-     * @return \JustDevs\BIGRegister\TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\TypeOfSpecialism
      */
     public function setCode($Code)
     {
@@ -81,7 +81,7 @@ class TypeOfSpecialism
 
     /**
      * @param string $Description
-     * @return \JustDevs\BIGRegister\TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\TypeOfSpecialism
      */
     public function setDescription($Description)
     {
@@ -99,7 +99,7 @@ class TypeOfSpecialism
 
     /**
      * @param string $DescriptionEn
-     * @return \JustDevs\BIGRegister\TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\TypeOfSpecialism
      */
     public function setDescriptionEn($DescriptionEn)
     {
@@ -117,7 +117,7 @@ class TypeOfSpecialism
 
     /**
      * @param string $TitleOfSpecialist
-     * @return \JustDevs\BIGRegister\TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\TypeOfSpecialism
      */
     public function setTitleOfSpecialist($TitleOfSpecialist)
     {
@@ -135,7 +135,7 @@ class TypeOfSpecialism
 
     /**
      * @param string $TitleOfSpecialistEn
-     * @return \JustDevs\BIGRegister\TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\TypeOfSpecialism
      */
     public function setTitleOfSpecialistEn($TitleOfSpecialistEn)
     {
@@ -153,7 +153,7 @@ class TypeOfSpecialism
 
     /**
      * @param string $Register
-     * @return \JustDevs\BIGRegister\TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\TypeOfSpecialism
      */
     public function setRegister($Register)
     {
@@ -179,7 +179,7 @@ class TypeOfSpecialism
 
     /**
      * @param \DateTime $EndDate
-     * @return \JustDevs\BIGRegister\TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\TypeOfSpecialism
      */
     public function setEndDate(\DateTime $EndDate = null)
     {
@@ -201,7 +201,7 @@ class TypeOfSpecialism
 
     /**
      * @param string $ProfessionalGroupCode
-     * @return \JustDevs\BIGRegister\TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\TypeOfSpecialism
      */
     public function setProfessionalGroupCode($ProfessionalGroupCode)
     {

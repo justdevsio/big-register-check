@@ -1,14 +1,14 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
-class ArrayOfListHcpApprox4 implements \ArrayAccess, \Iterator, \Countable
+class ArrayOfTypeOfSpecialism implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
-     * @var ListHcpApprox4[] $ListHcpApprox4
+     * @var TypeOfSpecialism[] $TypeOfSpecialism
      */
-    protected $ListHcpApprox4 = null;
+    protected $TypeOfSpecialism = null;
 
     
     public function __construct()
@@ -17,20 +17,20 @@ class ArrayOfListHcpApprox4 implements \ArrayAccess, \Iterator, \Countable
     }
 
     /**
-     * @return ListHcpApprox4[]
+     * @return TypeOfSpecialism[]
      */
-    public function getListHcpApprox4()
+    public function getTypeOfSpecialism()
     {
-      return $this->ListHcpApprox4;
+      return $this->TypeOfSpecialism;
     }
 
     /**
-     * @param ListHcpApprox4[] $ListHcpApprox4
-     * @return \JustDevs\BIGRegister\ArrayOfListHcpApprox4
+     * @param TypeOfSpecialism[] $TypeOfSpecialism
+     * @return \JustDevs\BIGRegister\client\client\client\ArrayOfTypeOfSpecialism
      */
-    public function setListHcpApprox4(array $ListHcpApprox4 = null)
+    public function setTypeOfSpecialism(array $TypeOfSpecialism = null)
     {
-      $this->ListHcpApprox4 = $ListHcpApprox4;
+      $this->TypeOfSpecialism = $TypeOfSpecialism;
       return $this;
     }
 
@@ -42,33 +42,33 @@ class ArrayOfListHcpApprox4 implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->ListHcpApprox4[$offset]);
+      return isset($this->TypeOfSpecialism[$offset]);
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to retrieve
-     * @return ListHcpApprox4
+     * @return TypeOfSpecialism
      */
     public function offsetGet($offset)
     {
-      return $this->ListHcpApprox4[$offset];
+      return $this->TypeOfSpecialism[$offset];
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to assign the value to
-     * @param ListHcpApprox4 $value The value to set
+     * @param TypeOfSpecialism $value The value to set
      * @return void
      */
     public function offsetSet($offset, $value)
     {
       if (!isset($offset)) {
-        $this->ListHcpApprox4[] = $value;
+        $this->TypeOfSpecialism[] = $value;
       } else {
-        $this->ListHcpApprox4[$offset] = $value;
+        $this->TypeOfSpecialism[$offset] = $value;
       }
     }
 
@@ -80,17 +80,17 @@ class ArrayOfListHcpApprox4 implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->ListHcpApprox4[$offset]);
+      unset($this->TypeOfSpecialism[$offset]);
     }
 
     /**
      * Iterator implementation
      *
-     * @return ListHcpApprox4 Return the current element
+     * @return TypeOfSpecialism Return the current element
      */
     public function current()
     {
-      return current($this->ListHcpApprox4);
+      return current($this->TypeOfSpecialism);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfListHcpApprox4 implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->ListHcpApprox4);
+      next($this->TypeOfSpecialism);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfListHcpApprox4 implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->ListHcpApprox4);
+      return key($this->TypeOfSpecialism);
     }
 
     /**
@@ -132,17 +132,17 @@ class ArrayOfListHcpApprox4 implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->ListHcpApprox4);
+      reset($this->TypeOfSpecialism);
     }
 
     /**
      * Countable implementation
      *
-     * @return ListHcpApprox4 Return count of elements
+     * @return TypeOfSpecialism Return count of elements
      */
     public function count()
     {
-      return count($this->ListHcpApprox4);
+      return count($this->TypeOfSpecialism);
     }
 
 }

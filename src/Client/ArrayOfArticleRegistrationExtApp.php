@@ -1,14 +1,14 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
-class ArrayOfJudgmentProvisionExtApp implements \ArrayAccess, \Iterator, \Countable
+class ArrayOfArticleRegistrationExtApp implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
-     * @var JudgmentProvisionExtApp[] $JudgmentProvisionExtApp
+     * @var ArticleRegistrationExtApp[] $ArticleRegistrationExtApp
      */
-    protected $JudgmentProvisionExtApp = null;
+    protected $ArticleRegistrationExtApp = null;
 
     
     public function __construct()
@@ -17,20 +17,20 @@ class ArrayOfJudgmentProvisionExtApp implements \ArrayAccess, \Iterator, \Counta
     }
 
     /**
-     * @return JudgmentProvisionExtApp[]
+     * @return ArticleRegistrationExtApp[]
      */
-    public function getJudgmentProvisionExtApp()
+    public function getArticleRegistrationExtApp()
     {
-      return $this->JudgmentProvisionExtApp;
+      return $this->ArticleRegistrationExtApp;
     }
 
     /**
-     * @param JudgmentProvisionExtApp[] $JudgmentProvisionExtApp
-     * @return \JustDevs\BIGRegister\ArrayOfJudgmentProvisionExtApp
+     * @param ArticleRegistrationExtApp[] $ArticleRegistrationExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\ArrayOfArticleRegistrationExtApp
      */
-    public function setJudgmentProvisionExtApp(array $JudgmentProvisionExtApp = null)
+    public function setArticleRegistrationExtApp(array $ArticleRegistrationExtApp = null)
     {
-      $this->JudgmentProvisionExtApp = $JudgmentProvisionExtApp;
+      $this->ArticleRegistrationExtApp = $ArticleRegistrationExtApp;
       return $this;
     }
 
@@ -42,33 +42,33 @@ class ArrayOfJudgmentProvisionExtApp implements \ArrayAccess, \Iterator, \Counta
      */
     public function offsetExists($offset)
     {
-      return isset($this->JudgmentProvisionExtApp[$offset]);
+      return isset($this->ArticleRegistrationExtApp[$offset]);
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to retrieve
-     * @return JudgmentProvisionExtApp
+     * @return ArticleRegistrationExtApp
      */
     public function offsetGet($offset)
     {
-      return $this->JudgmentProvisionExtApp[$offset];
+      return $this->ArticleRegistrationExtApp[$offset];
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to assign the value to
-     * @param JudgmentProvisionExtApp $value The value to set
+     * @param ArticleRegistrationExtApp $value The value to set
      * @return void
      */
     public function offsetSet($offset, $value)
     {
       if (!isset($offset)) {
-        $this->JudgmentProvisionExtApp[] = $value;
+        $this->ArticleRegistrationExtApp[] = $value;
       } else {
-        $this->JudgmentProvisionExtApp[$offset] = $value;
+        $this->ArticleRegistrationExtApp[$offset] = $value;
       }
     }
 
@@ -80,17 +80,17 @@ class ArrayOfJudgmentProvisionExtApp implements \ArrayAccess, \Iterator, \Counta
      */
     public function offsetUnset($offset)
     {
-      unset($this->JudgmentProvisionExtApp[$offset]);
+      unset($this->ArticleRegistrationExtApp[$offset]);
     }
 
     /**
      * Iterator implementation
      *
-     * @return JudgmentProvisionExtApp Return the current element
+     * @return ArticleRegistrationExtApp Return the current element
      */
     public function current()
     {
-      return current($this->JudgmentProvisionExtApp);
+      return current($this->ArticleRegistrationExtApp);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfJudgmentProvisionExtApp implements \ArrayAccess, \Iterator, \Counta
      */
     public function next()
     {
-      next($this->JudgmentProvisionExtApp);
+      next($this->ArticleRegistrationExtApp);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfJudgmentProvisionExtApp implements \ArrayAccess, \Iterator, \Counta
      */
     public function key()
     {
-      return key($this->JudgmentProvisionExtApp);
+      return key($this->ArticleRegistrationExtApp);
     }
 
     /**
@@ -132,17 +132,17 @@ class ArrayOfJudgmentProvisionExtApp implements \ArrayAccess, \Iterator, \Counta
      */
     public function rewind()
     {
-      reset($this->JudgmentProvisionExtApp);
+      reset($this->ArticleRegistrationExtApp);
     }
 
     /**
      * Countable implementation
      *
-     * @return JudgmentProvisionExtApp Return count of elements
+     * @return ArticleRegistrationExtApp Return count of elements
      */
     public function count()
     {
-      return count($this->JudgmentProvisionExtApp);
+      return count($this->ArticleRegistrationExtApp);
     }
 
 }

@@ -19,6 +19,6 @@ composer require justdevs/big-register-check
 Check for a specific number
 ```php
 $number = "1234";
-$search = new \JustDevs\BIGRegister\BigSearch($number);
+$search = new \JustDevs\BIGRegister\client\client\client\BigSearch($number);
 $active = $search->allRegistrationsActive();
 ```

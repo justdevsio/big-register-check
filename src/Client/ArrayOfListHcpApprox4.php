@@ -1,14 +1,14 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
-class ArrayOfProfessionalGroup implements \ArrayAccess, \Iterator, \Countable
+class ArrayOfListHcpApprox4 implements \ArrayAccess, \Iterator, \Countable
 {
 
     /**
-     * @var ProfessionalGroup[] $ProfessionalGroup
+     * @var ListHcpApprox4[] $ListHcpApprox4
      */
-    protected $ProfessionalGroup = null;
+    protected $ListHcpApprox4 = null;
 
     
     public function __construct()
@@ -17,20 +17,20 @@ class ArrayOfProfessionalGroup implements \ArrayAccess, \Iterator, \Countable
     }
 
     /**
-     * @return ProfessionalGroup[]
+     * @return ListHcpApprox4[]
      */
-    public function getProfessionalGroup()
+    public function getListHcpApprox4()
     {
-      return $this->ProfessionalGroup;
+      return $this->ListHcpApprox4;
     }
 
     /**
-     * @param ProfessionalGroup[] $ProfessionalGroup
-     * @return \JustDevs\BIGRegister\ArrayOfProfessionalGroup
+     * @param ListHcpApprox4[] $ListHcpApprox4
+     * @return \JustDevs\BIGRegister\client\client\client\ArrayOfListHcpApprox4
      */
-    public function setProfessionalGroup(array $ProfessionalGroup = null)
+    public function setListHcpApprox4(array $ListHcpApprox4 = null)
     {
-      $this->ProfessionalGroup = $ProfessionalGroup;
+      $this->ListHcpApprox4 = $ListHcpApprox4;
       return $this;
     }
 
@@ -42,33 +42,33 @@ class ArrayOfProfessionalGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetExists($offset)
     {
-      return isset($this->ProfessionalGroup[$offset]);
+      return isset($this->ListHcpApprox4[$offset]);
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to retrieve
-     * @return ProfessionalGroup
+     * @return ListHcpApprox4
      */
     public function offsetGet($offset)
     {
-      return $this->ProfessionalGroup[$offset];
+      return $this->ListHcpApprox4[$offset];
     }
 
     /**
      * ArrayAccess implementation
      *
      * @param mixed $offset The offset to assign the value to
-     * @param ProfessionalGroup $value The value to set
+     * @param ListHcpApprox4 $value The value to set
      * @return void
      */
     public function offsetSet($offset, $value)
     {
       if (!isset($offset)) {
-        $this->ProfessionalGroup[] = $value;
+        $this->ListHcpApprox4[] = $value;
       } else {
-        $this->ProfessionalGroup[$offset] = $value;
+        $this->ListHcpApprox4[$offset] = $value;
       }
     }
 
@@ -80,17 +80,17 @@ class ArrayOfProfessionalGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function offsetUnset($offset)
     {
-      unset($this->ProfessionalGroup[$offset]);
+      unset($this->ListHcpApprox4[$offset]);
     }
 
     /**
      * Iterator implementation
      *
-     * @return ProfessionalGroup Return the current element
+     * @return ListHcpApprox4 Return the current element
      */
     public function current()
     {
-      return current($this->ProfessionalGroup);
+      return current($this->ListHcpApprox4);
     }
 
     /**
@@ -101,7 +101,7 @@ class ArrayOfProfessionalGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function next()
     {
-      next($this->ProfessionalGroup);
+      next($this->ListHcpApprox4);
     }
 
     /**
@@ -111,7 +111,7 @@ class ArrayOfProfessionalGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function key()
     {
-      return key($this->ProfessionalGroup);
+      return key($this->ListHcpApprox4);
     }
 
     /**
@@ -132,17 +132,17 @@ class ArrayOfProfessionalGroup implements \ArrayAccess, \Iterator, \Countable
      */
     public function rewind()
     {
-      reset($this->ProfessionalGroup);
+      reset($this->ListHcpApprox4);
     }
 
     /**
      * Countable implementation
      *
-     * @return ProfessionalGroup Return count of elements
+     * @return ListHcpApprox4 Return count of elements
      */
     public function count()
     {
-      return count($this->ProfessionalGroup);
+      return count($this->ListHcpApprox4);
     }
 
 }

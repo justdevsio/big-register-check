@@ -1,6 +1,6 @@
 <?php
 
-namespace JustDevs\BIGRegister;
+namespace JustDevs\BIGRegister\Client;
 
 class MentionExtApp
 {
@@ -54,7 +54,7 @@ class MentionExtApp
 
     /**
      * @param float $MentionId
-     * @return \JustDevs\BIGRegister\MentionExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\MentionExtApp
      */
     public function setMentionId($MentionId)
     {
@@ -72,7 +72,7 @@ class MentionExtApp
 
     /**
      * @param float $ArticleRegistrationNumber
-     * @return \JustDevs\BIGRegister\MentionExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\MentionExtApp
      */
     public function setArticleRegistrationNumber($ArticleRegistrationNumber)
     {
@@ -90,7 +90,7 @@ class MentionExtApp
 
     /**
      * @param float $TypeOfMentionId
-     * @return \JustDevs\BIGRegister\MentionExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\MentionExtApp
      */
     public function setTypeOfMentionId($TypeOfMentionId)
     {
@@ -116,7 +116,7 @@ class MentionExtApp
 
     /**
      * @param \DateTime $StartDate
-     * @return \JustDevs\BIGRegister\MentionExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\MentionExtApp
      */
     public function setStartDate(\DateTime $StartDate)
     {
@@ -142,7 +142,7 @@ class MentionExtApp
 
     /**
      * @param \DateTime $EndDate
-     * @return \JustDevs\BIGRegister\MentionExtApp
+     * @return \JustDevs\BIGRegister\client\client\client\MentionExtApp
      */
     public function setEndDate(\DateTime $EndDate = null)
     {
