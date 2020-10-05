@@ -16,9 +16,15 @@ composer require justdevs/big-register-check
 ```
 
 ## Usage
-Check for a specific number
+Check for a specific BIG registration number
 ```php
 $number = "1234";
-$search = new \JustDevs\BIGRegister\client\client\client\BigSearch($number);
+$search = new \JustDevs\BIGRegister\BigSearch($number);
 $active = $search->allRegistrationsActive();
 ```
+
+Or take a look at the generated Client [\JustDevs\BigRegister\Client\PublicV4](src/Client/PublicV4.php) for all 
+methods that are available. The client was generated based on the WSDL that's available at: https://webservices.cibg.nl/Ribiz/OpenbaarV4.asmx?wsdl.
+
+More information and documentation about the BIG register: https://www.bigregister.nl/zoek-zorgverlener/zoeken-eigen-systeem (in dutch).
+
