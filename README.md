@@ -12,7 +12,7 @@ the Netherlands.
 ## Installation
 Just include the library in your code.
 ```bash
-composer require justdevsio/big-register-check
+composer require justdevs/big-register-check
 ```
 
 ## Usage
