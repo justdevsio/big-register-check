@@ -48,7 +48,7 @@ class PublicV4 extends \SoapClient
       'features' => 1,
     ), $options);
       if (!$wsdl) {
-        $wsdl = 'https://webservices.cibg.nl/Ribiz/OpenbaarV4.asmx?wsdl';
+        $wsdl = 'https://api.bigregister.nl/zksrv/soap/4?wsdl';
       }
       parent::__construct($wsdl, $options);
     }
