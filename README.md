@@ -24,7 +24,7 @@ $active = $search->allRegistrationsActive();
 ```
 
 Or take a look at the generated Client [\JustDevs\BigRegister\Client\PublicV4](src/Client/PublicV4.php) for all 
-methods that are available. The client was generated based on the WSDL that's available at: https://webservices.cibg.nl/Ribiz/OpenbaarV4.asmx?wsdl.
+methods that are available. The client was generated based on the WSDL that's available at: https://api.bigregister.nl/zksrv/soap/4?wsdl.
 
 More information and documentation about the BIG register: https://www.bigregister.nl/zoek-zorgverlener/zoeken-eigen-systeem (in dutch).
 
